@@ -7,6 +7,6 @@
   :author "Tim Hawes <tim@selfdidactic.com>"
   :license MIT
   :serial t
-  :depends-on (:plump)
+  :depends-on (:lquery)
   :components ((:file "package")
                (:file "parse-html")))

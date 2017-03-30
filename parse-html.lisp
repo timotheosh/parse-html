@@ -6,3 +6,9 @@
 
 ;;; "parse-html" goes here. Hacks and glory await!
 
+(defparameter *doc*
+  (lquery:$
+    (initialize
+     (asdf:system-relative-pathname :lquery "test.html"))))
+
+(lquery:$ *doc* "article")
